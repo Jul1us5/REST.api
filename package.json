@@ -1,0 +1,28 @@
+{
+  "name": "rest.api",
+  "version": "1.0.0",
+  "description": "My First REST API | Mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jul1us5/REST.api.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "NODE",
+    "MYSQL"
+  ],
+  "author": "Julius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jul1us5/REST.api/issues"
+  },
+  "homepage": "https://github.com/Jul1us5/REST.api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
