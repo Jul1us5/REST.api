@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express')
 const app = express()
 
@@ -8,6 +10,6 @@ app.get('/api', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Server is runing!');
+app.listen(process.env.APP_PORT, () => {
+    console.log('Server is runing on : ', process.env.APP_PORT);
 })
