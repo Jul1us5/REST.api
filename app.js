@@ -10,6 +10,6 @@ const app = express()
 //     })
 // })
 
-app.listen(process.env.APP_PORT, () => {
-    console.log('Server is runing on : ', process.env.APP_PORT);
-})
+// app.listen(process.env.APP_PORT, () => {
+//     console.log('Server is runing on : ', process.env.APP_PORT);
+// })
